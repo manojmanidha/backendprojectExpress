@@ -1,0 +1,10 @@
+### TEST GET / WEBSITE
+
+GET http://localhost:1235
+
+### test dashboard
+
+GET http://localhost:1235/dashboard
+
+### test api/data
+GET  http://localhost:1235/api/data
