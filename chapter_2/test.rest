@@ -8,3 +8,14 @@ GET http://localhost:1235/dashboard
 
 ### test api/data
 GET  http://localhost:1235/api/data
+
+### Endpoint for adding user 
+POST http://localhost:1235/api/data
+Content-Type: application/json
+
+{
+    "name" : "kishor ks"
+}
+
+### Endpoint to delete the data
+DELETE http://localhost:1235/api/endpoint
