@@ -9,7 +9,7 @@ router.get('/' , (req , res)=>{})
 // to create new todo
 router.post('/' , (req , res)=>{})
 
-// to update the todo list using id of perticuler todo
+// to update the todo list using id of todo
 router.put('/:id' , (req , res)=>{})
 
 export default router
