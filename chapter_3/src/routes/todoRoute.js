@@ -12,4 +12,7 @@ router.post('/' , (req , res)=>{})
 // to update the todo list using id of todo
 router.put('/:id' , (req , res)=>{})
 
+// to delete todo
+router.delete('/:id' , (req,res)=>{})
+
 export default router
