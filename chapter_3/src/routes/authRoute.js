@@ -8,6 +8,9 @@ const router = express.Router()
 // Register a new user endpoing /auth/register
 router.post('/register', (req, res) => {
     const { username, password } = req.body
+    console.log('username' , username);
+    console.log('password' , password);
+
     // save the username and an irreversibly encrypted password
     // save gilgamesh@gmail.com | aklsdjfasdf.asdf..qwe..q.we...qwe.qw.easd
 
