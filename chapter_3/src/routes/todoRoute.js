@@ -4,7 +4,9 @@ import express from 'express'
 const router = express.Router()
 
 // to get all the todo list
-router.get('/' , (req , res)=>{})
+router.get('/' , (req , res)=>{
+    console.log('req' , req.body)
+})
 
 // to create new todo
 router.post('/' , (req , res)=>{})
